@@ -1,0 +1,64 @@
+/*! Reset e estilos gerais */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #252525;
+}
+
+/*! menu */
+
+.menu{
+    background: #252525;
+    padding: 20px 0;
+}
+.menu-container{
+   max-width:960px;
+   margin-left: auto;
+   margin-right: auto;
+   /*? vai centralizar o container do menu  */
+}
+.menu-container::after,
+.menu-container::before{
+    content: '';
+    display: table;
+    clear: both;
+    /* ? vai fazer com que o menu continue vendo os filhos que estão com float */
+}
+
+
+a.menu-logo{
+    display: block;
+       /*? vai fazer com que a area clicavel, seja a imagem toda */
+
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+}
+
+.menu-nav{
+    float: right;
+    margin-right: 10px;
+}
+.menu-nav li{
+    display: inline-block;
+    /* ? vai deixar os links dos menu um ao lado do outro */
+}
+.menu-nav a{
+    display: block;
+    padding: 10px;
+    /* ? vai fazer com que a area clicavel seja maior, importante para mobile */
+    text-decoration: none;
+    color:#fff;
+    font-size:1.125em;
+
+
+}
