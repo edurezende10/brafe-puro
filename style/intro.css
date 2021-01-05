@@ -1,0 +1,39 @@
+/*? intro*/
+
+.intro {
+    background:url('../img/bg-intro.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    /*! vai fazer com que a imagem ocupe o background, sem se repetir, com posicionamento da imagem no centro do eixo x e y. já o cover vai fazer com que o plano de fundo sempre fique preenchendo 100% */
+
+    padding: 150px 0;
+
+    /* ! vai criar um espaçamento dentro do container, para que este demonstre o background e o titulo */
+
+    text-align: center;
+
+    color: #ffffff;
+
+}
+
+.intro h1{
+    text-transform: uppercase;
+    font-size: 3em;
+
+}
+.intro h1::after{
+    content:'';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background:#fff;
+    margin: 10px auto;
+}
+/*! como o h1 está como display block, o margin servirá para centralizar  */
+
+.intro p {
+    font-style: italic;
+    font-size: 1.5em;
+}
