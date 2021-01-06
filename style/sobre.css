@@ -1,0 +1,53 @@
+.sobre{
+    margin:60px 0;
+}
+.sobre-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.sobre-container::after,
+.sobre-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*! tanto o sobre-container e abaixo com os pseudos elementos, vai fazer com que as imagens e textos fiquem centralizados ao meio da página   */
+
+.sobre h2 {
+    text-align: center;
+    font-size: 2.25em ;
+    margin-bottom: 60px;
+}
+
+.sobre-item {
+    max-width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+.sobre-item img {
+    display: block;
+    max-width: 100%;
+}
+.sobre-item h3{
+    font-size: 2.25em;
+    background-color:#252525 ;
+    width: 220px;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1;
+    padding: 5px 0 10px 0;
+    position: relative;
+    top:-25px
+}
+/*! precisa usar o position relative, pra subir apenas o box do h3 para cima da imagem, porem não podemos usar o absolute, pois o espaço que antes era ocupado pelo box, no position relative, ainda continua sendo "preenchido", já no absolute, esse elemento sai total do fluxo da pagina  */
+
+.sobre >p{
+    font-size: 1.125em;
+    font-style: italic;
+    max-width: 460px;
+    text-align: center;
+    line-height: 1.3em;
+    margin:20px auto
+}
