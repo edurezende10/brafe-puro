@@ -46,16 +46,28 @@ h2.produtos-paulista::before{
     box-shadow: 0 0 0 5px #492901;
 
 }
+.produtos-paulista{
+    color: #492901;
+
+}
 h2.produtos-carioca::before{
     background-color: #c17139;
     box-shadow: 0 0 0 5px #c17139;
 
 
 }
+.produtos-carioca {
+    color: #c17139;
+}
 h2.produtos-mineiro::before{
     background-color: #d7a54d;
     box-shadow: 0 0 0 5px #d7a54d;
 
+
+
+}
+.produtos-mineiro{
+    color: #d7a54d;
 
 }
 .produtos-item p{
