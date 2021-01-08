@@ -13,6 +13,9 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #252525;
 }
+*{
+    box-sizing: border-box;
+}
 
 /*! menu */
 
