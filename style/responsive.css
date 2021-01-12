@@ -1,0 +1,105 @@
+ /* ! tudo que for abaixo de 739 px de largura será aplicado o estilo definido abaixo */
+ 
+ @media only screen and  (max-width:739px){
+     .menu{
+         text-align: center;
+     }
+    a.menu-logo{
+        float: none;
+        margin: 0 auto;
+    }
+    .menu-nav{
+    float:none; 
+    clear: both;   
+    } 
+    
+    .intro{
+        padding: 60px 0;
+    }
+   
+ }
+ /* ! entre 740 px e 980 px vai aplicar os estilos abaixo */
+
+ @media (min-width: 740px) and (max-width:980px){
+    .sobre-container {
+        max-width: 720px;
+    }
+    
+    .sobre-item {
+        width: 340px; 
+    }
+    .produtos-container {
+        max-width: 720px;
+
+    }
+    .produtos-item{
+        width: 220px;
+    }
+   
+    .locais-item > div{
+        width: 340px;
+    }
+    .locais-item img {
+        width: 340px;
+    }
+    .assine-container {
+        max-width:720px ;
+    }
+    .assine-info {
+        width: 340px;
+    }
+    .assine form {
+        width: 340px;
+    }
+    .assine input {
+        width: 340px;
+    }
+
+ }
+
+ /* ! largura abaixo de 739px */
+
+ @media(max-width:739px){
+    .sobre-container{
+        max-width: 300px;
+    } 
+    .sobre-item{
+        width: 300px;
+        margin: 0 auto;
+    } 
+    .produtos-container{
+        max-width: 300px;
+    }
+    .produtos-item{
+        margin: 0 auto 20px auto;
+    }
+    .locais {
+        max-width: 300px;
+    }
+    .locais-item > div,
+    .locais-item img {
+        width: 300px;
+        margin: 0px;
+
+    }
+    .assine-container {
+        max-width: 300px;
+    }
+    .assine-info,
+    .assine form,
+    .assine input {
+        width: 300px;
+        margin-top: 10px;
+    }
+    .footer-container {
+        max-width: 300px;
+    }
+    .footer p {
+        float: none;
+        margin: 0px;
+    }
+    .footer img {
+        float: none;
+        margin: 10px 0;
+    }
+ }
